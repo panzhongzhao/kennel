@@ -1,0 +1,25 @@
+body,input,p,h1,h2,h3,h4,h5,h6,div,img,span,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+}
+img{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline:none;
+}
+button{
+    outline: none;
+    cursor: pointer;
+}
+body{
+    font-family: '黑体';
+    color: #fff;
+}

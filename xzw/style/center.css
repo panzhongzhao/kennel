@@ -1,0 +1,316 @@
+header{
+    width: 100%;
+    height: 165px;
+    padding-top: 30px;
+    position: relative;
+}
+header::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 195px;
+    top: 0;
+    background-image: linear-gradient(to left,rgba(73, 70, 70, 0.328),rgba(73, 70, 70,0.328)), url(../img/center-head.png);
+    background-position: center -150px;
+    background-size: 150% auto;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+header .top-title{
+    width: 100%;
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+}
+header .top-title h3{
+    margin:0 80px 0 150px;
+    text-align: center;
+    font-weight: normal;
+}
+header .top-title .set{
+    width: 55px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+header .top-title .set .set-user{
+    display: none;
+    width: 55px;
+    height: 75px;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 3px ;
+    top: 30px;
+    left: 0px;
+    box-shadow: 1px 1px 1px #ffffff;
+}
+header .top-title .set .set-user::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color:transparent transparent #ffffff transparent;
+    border-style: solid;
+    border-width:5px;
+    top: -10px;
+    left: 41px;
+}
+header .top-title .set .set-user a{
+    width: 100%;
+    height: 30%;
+    margin-top: 2px;
+    flex-wrap: wrap;
+    display: flex;
+    color: rgb(190, 190, 190);
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+}
+header .top-title .set .set-user p{
+    width: 25px;
+    margin:0 auto;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+header .top-title .set img{
+    width: 15px;
+    height: 15px;
+}
+header .top-title .set span{
+    display: block;
+    width: 3px;
+    height: 3px;
+    background: red;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}
+header .introduction{
+    margin-top: 15px ;
+    padding: 0 20px 0 25px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .introduction .introduction-left{
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+header .introduction .introduction-left .head-portrait{
+    width: 65px;
+    height: 65px;
+    background:url(../img/center-head.png) no-repeat center rgba(157, 153, 145, 0.486) ;
+    background-size: 115% 115%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+header .introduction .introduction-left .cat{
+    width: 120px;
+    font-size:12px;
+}
+header .introduction .introduction-left .cat p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.945);
+}
+header .introduction .introduction-left .cat span{
+    display: block;
+    white-space: nowrap;
+    transform: scale(0.9) translate(-10px);
+    color: rgba(255, 255, 255, 0.712);
+    -webkit-transform: scale(0.9) translate(-10px);
+    -moz-transform: scale(0.9) translate(-10px);
+    -ms-transform: scale(0.9) translate(-10px);
+    -o-transform: scale(0.9) translate(-10px);
+}
+header .introduction .right img{
+    width: 8px;
+}
+section{
+    width: 100%;
+    padding: 0 10px 70px;
+    box-sizing: border-box;
+    background: rgb(245,245,245);
+    position: relative;
+    color: rgb(89,89,89);
+}
+section a{
+    color: rgb(89,89,89);
+}
+section .order{
+    width: 100%;
+    padding: 0px 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    height: 125px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    transform:translateY(-57px) ;
+    -webkit-transform:translateY(-57px) ;
+    -moz-transform:translateY(-57px) ;
+    -ms-transform:translateY(-57px) ;
+    -o-transform:translateY(-57px) ;
+    box-shadow: 1px 1px 2px #dddbdb;
+}
+section .order .my-order{
+    height: 57px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+}
+section .order .my-order .my{
+    width: 80px;
+    color: rgb(13,13,13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+section .order .my-order .my img{
+    width: 12px;
+    height: 12px;
+}
+section .order .my-order .all-order{
+    width: 80px;
+    font-size: 12px;
+}
+section .order .my-order .all-order a{
+    width: 100%;
+    height: 100%;
+    color: rgb(188, 188, 188);
+    display: flex;
+    align-items: center;
+}
+section .order .my-order .all-order a span{
+    white-space: nowrap;
+    transform:scale(0.9);
+    -webkit-transform:scale(0.9);
+    -moz-transform:scale(0.9);
+    -ms-transform:scale(0.9);
+    -o-transform:scale(0.9);
+    -webkit-transform: scale(0.9) ;
+}
+section .order .my-order .all-order a img{
+    width: 5px;
+}
+section .order .ways{
+    height:67px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section .order .ways .pay{
+    height: 100%;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    text-align: center;
+    font-size: 13px;
+    
+}
+section .order .ways a{
+    display: block;
+    position: relative;
+}
+section .order .ways .pay .picture{
+    width: 100%;
+    height: 15px;
+    margin-bottom: 5px;
+}
+section .order .ways .pay .picture img{
+    height: 100%;
+}
+section .order .ways .one{
+    position: absolute;
+    top: -9px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    transform: scale(0.5);
+    color: #fff;
+    background: rgb(236, 148, 57);
+    border-radius: 50%;
+    text-align: center;
+}
+section .ticket{
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 2px #dddbdb;
+    margin-top: -55px;
+}
+section .ticket .coupons{
+    height: 44px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .ticket .coupons p{
+    font-size: 12px;
+}
+section .ticket .coupons a{
+    display: flex;
+    width: 30px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+section .ticket .coupons img{
+    margin-right:3px ;
+    width: 5px;
+}
+section .management{
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 2px #dddbdb;
+}
+section .management .coupons{
+    height: 44px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .management .coupons p{
+    font-size: 12px;
+}
+section .management .coupons a{
+    display: flex;
+    width: 30px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+section .management .coupons img{
+    margin-right:3px ;
+    width: 5px;
+}

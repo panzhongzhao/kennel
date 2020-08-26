@@ -1,0 +1,458 @@
+header{
+    width: 100%;
+    height: 64px;
+    padding: 30px 10px 5px;
+    box-sizing: border-box;
+    background: rgb(245, 147, 38);
+    margin-bottom: 4px;
+}
+header .top-search{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .top-search .search{
+    width: 320px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background: #ffffff;
+    border-radius: 3px;
+}
+header .top-search .search i{
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(121, 121, 121);
+}
+header .top-search .search input{
+    height: 100%;
+    width: 290px;
+    border: none;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+header .top-search .search input::placeholder{
+    color: rgb(197, 197, 197);
+    font-size: 12px;
+}
+header .top-search a img{
+    width: 26px; 
+}
+section{
+    width: 100%;
+    margin-bottom:50px ;
+}
+section .wine{
+    width: 100%;
+    height: 180px;
+    background: url(../img/wine.png) no-repeat center;
+    background-size:cover ;
+    padding-top:152px ;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+section .wine>ul{
+    width: 54px;
+    height: 15px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+section .wine>ul>li{
+    width: 10px;
+    height: 10px;
+    background: #000000;
+    opacity: 0.5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+section .wine>ul>li:first-of-type{
+   opacity: 1;
+}
+section .border{
+    width: 100%;
+    border: 2px solid rgb(246, 246, 246);
+}
+section nav{
+    width: 100%;
+    height: 180px;
+    padding: 10px 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section nav .beauty-makeup{
+    width: 74px;
+    height: 65px;
+}
+section nav .beauty-makeup a{
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section nav .beauty-makeup img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 3px;
+}
+section .sale{
+    width: 100%;
+    height: 160px;
+    margin: 5px 0;
+}
+section .sale img{
+    width: 100%;
+}
+section .area{
+    width: 100%;
+    height: 260px;
+    margin: 10px 0 ;
+}
+section .area .area-top{
+    width: 357px;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+section .area .area-top .area-top-left{
+    width: 175px;
+    height: 100%;
+    border-radius: 10px;
+}
+section .area .area-top .area-top-left img{
+    width: 100%;
+}
+section .area .area-bottom{
+    width: 357px;
+    height: 130px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+}
+section .area .area-bottom .daily{
+    width: 115px;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px #b6b1b1ad;
+    padding: 10px;
+}
+section .area .area-bottom .daily .daily-all{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    padding:10px 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+section .area .area-bottom .daily .daily-all::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../img/daily.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+section .area .area-bottom .area-fruit{
+    width: 115px;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px #b6b1b1ad;
+    padding: 10px;
+}
+section .area .area-bottom .area-fruit-all{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    padding:10px 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+section .area .area-bottom .area-fruit .area-fruit-all::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../img/fruit\ area.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+section .area .area-bottom .snacks{
+    width: 115px;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px #b6b1b1ad;
+    padding: 10px;
+}
+section .area .area-bottom .snacks-all{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    padding:10px 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+section .area .area-bottom .snacks .snacks-all::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../img/snacks.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+section .area .area-bottom h4{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0 10px 5px 10px;
+}
+section .area .area-bottom p{
+    margin-left: 10px;
+    color: rgba(242, 242, 242, 0.692);
+    transform: scale(0.8) translate(-10px);
+}
+section .area .area-bottom .check{
+    margin: 40px auto 0;
+    width: 35px;
+    height: 20px;
+    background: #ffffff;
+    color: #161515c7;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px;
+    transform: scale(0.8);
+}
+section .flash{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+section .flash .flash-sale{
+    width: 25px;
+    height: 100%;
+    color: rgb(45, 45, 45);
+    font-size: 12px;
+}
+section .flash p{
+    height: 15px;
+    border-right:1px solid rgb(218, 218, 218);
+}
+section .flash .time{
+    width: 290px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .flash .time .real-time{
+    width: 40px;
+    height: 100%;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+}
+section .flash .time .real-time span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+    font-weight: normal;
+    width: 100%;
+    height: 16px;
+    border-radius: 15px;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+#qianggou{
+    color: red;
+}
+#qianggou span{
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    font-size: 12px;
+    color: rgb(233, 226, 226);
+    font-weight: normal;
+    width: 100%;
+    height: 16px;
+    border-radius: 15px;
+    transform: scale(0.9);
+}
+section .duck-neck{
+    width: 100%;
+    height: 145px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .duck-neck .duck-neck-left{
+    height: 100%;
+    width: 115px;
+    border-right: 10px;
+}
+section .duck-neck .duck-neck-left img{
+    height: 100%;
+}
+section .duck-neck .duck-neck-right{
+    height: 100%;
+    width: 225px;
+    font-size: 13px;
+    color: rgb(70, 70, 70);
+}
+section .duck-neck .duck-neck-right h4{
+    font-weight: normal;
+}
+section .duck-neck .duck-neck-right .price{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    margin-top: 45px;
+    font-family: "微软雅黑";
+}
+section .duck-neck .duck-neck-right .price .now-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5px;
+    font-size: 16px;
+    transform: scale(0.9);
+    color: #000000;
+}
+section .duck-neck .duck-neck-right .price .now-price p{
+    color: rgb(255, 37, 37);
+    font-weight: 600;
+}
+section .duck-neck .duck-neck-right .price .now-price span{
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
+section .duck-neck .duck-neck-right .price .rob{
+    background: red;
+    color: rgba(255, 241, 241, 0.911);
+    width: 85px;
+    height: 100%;
+    border-radius:3px ;
+    text-align: center;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+section .duck-neck .duck-neck-right .price .rob .percent{
+    margin: 2px auto 0;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .duck-neck .duck-neck-right .price .rob .percent-left{
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+}
+section .duck-neck .duck-neck-right .price .rob .percent-left-all{
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 5px;
+}
+section .duck-neck .duck-neck-right .price .rob .percent span{
+    font-size: 12px;
+    transform: scale(0.75);
+}
+section .duck-neck .duck-neck-right .price .rob .percent .yibai{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 5px;
+}
+section .duck-neck .duck-neck-right .price .rob .percent .jiujiu{
+    width: 99%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 5px;
+}
+section .hot{
+    width: 100%;
+    height: 55px;
+    background: url(../img/rexiao-bg.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    line-height: 55px;
+    color: rgb(255, 30, 30);
+    font-size: 20px;
+    font-weight: 600;
+}
+section .duck-neck .duck-neck-right .price .immediately{
+    width: 78px;
+    height: 28px;
+    border: 1px solid rgb(255,135,135);
+    color: red;
+    font-weight: 600;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+section .loading{
+    width: 100%;
+    background: rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+section .loading p{
+    margin-right: 5px;
+    background: rgb(255, 51, 51);
+    border-radius: 50%;
+}
+section .loading p:first-of-type{
+    width: 4px;
+    height:4px ;
+}
+section .loading p:nth-of-type(2){
+    width: 5px;
+    height:5px ;
+}
+section .loading p:last-of-type{
+    width: 6px;
+    height:6px ;
+}

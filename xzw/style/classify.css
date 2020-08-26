@@ -1,0 +1,120 @@
+header{
+    background: #fff;
+    text-align: center;
+    height: 110px;
+    line-height: 28px;  
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+header h2{
+    color: #000000;
+    font-size: 22px;
+    padding: 30px 0 10px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: normal;
+}
+nav{
+    border-top: 2px solid rgb(246, 246, 246);
+    border-bottom: 2px solid rgb(246, 246, 246);
+    height: 40px;
+    width: 100%;
+    padding:0px 15px;
+    box-sizing: border-box;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size: 13px;
+}
+nav ul li{
+    padding: 6px 6px;
+    height: 25px;
+    border: 1px solid rgb(107, 107, 107);
+    color: rgb(153, 153, 153);
+    width: 70px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul .top-active{
+    width: 38px;
+    height: 25px;
+    color:rgb(255, 147, 38);
+    border: 1px solid rgb(255, 147, 38);
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section aside{
+    width: 84px;
+    background: rgb(249, 249, 249);
+}
+section aside ul li{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    cursor: pointer;
+}
+section aside ul .left-active{
+    background: #fff;
+    position: relative;
+    color: rgb(51, 51, 51);
+}
+section aside ul .left-active::before{
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-left: 4px solid rgb(255, 147, 38);
+}
+
+section .all-goods,section .outdoor-goods{
+    margin: 6px 7px 0px 8px;
+    width: 276px;
+    height: 495px;
+    padding-top:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+section .outdoor-goods{
+    display: none;
+}
+section .all-goods .watch,section .outdoor-goods .watch{
+    width: 33.3%;
+    height: 90px;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+section .all-goods .watch img,section .outdoor-goods .watch img{
+    display: block;
+    margin: 0 auto 10px;
+    height: 60px;
+}
+section .all-goods .watch span,section .outdoor-goods .watch span{
+    font-size: 13px;
+    color:rgb(89, 89, 89);
+}
