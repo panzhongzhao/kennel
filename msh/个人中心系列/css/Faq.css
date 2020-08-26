@@ -1,0 +1,259 @@
+﻿.Floating-left{
+    float: left;
+}
+.Floating-right{
+    float: right;
+}
+.Middle{/* 内容在不用弹性情况下的定位居中 */
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.middle-up{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+
+}
+.Wholenesa{
+    width:100%;
+    height: 1400px;
+   /* border: 1px solid black;  这里用了一个零时的边框，用到时候删除*/
+    background: #F7F7F7;
+    overflow: hidden;
+}
+.Wholenesa > p{
+    width: 95%;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 18;
+    color: #999999;
+}
+article{
+    overflow: hidden;
+    background: white;
+}
+.one{
+   
+    padding: 9px 15px 27px;
+}
+header{
+    position: relative;
+    overflow: hidden;
+    font-size: 24px;
+}
+header .left > ul {
+    overflow: hidden;
+}
+header  ul > li{
+    float: left;  
+}
+header .left > ul > li img{
+    width: 24px;
+    margin-left: 13px;
+    vertical-align: bottom;
+}
+header .left > ul > li > ul{
+    
+     margin-top: 10px;/*信号居中 */
+     margin-right: 8px;
+}
+header .left > ul > li > ul > li{
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+header .right > ul > li img{
+    width: 49px;
+    margin-left: 8px;
+}
+section{
+    position: relative;
+    margin-top: 40px;
+    overflow: hidden;
+}
+section .left a img{
+    margin-left: 25px;
+    height: 30px;
+    margin-top: 6px;
+}
+section > .right{
+    margin-top: 8px;
+    margin-right: 34px;
+    font-size: 24px;
+    color: #B0B0B0;
+} 
+section h2{
+    font-size: 30px; 
+    font-weight: 540;
+}
+
+/* 第二部分 */
+.two{
+    margin-top: 10px;
+   
+}
+.Search{
+    width: 86%;
+    height: 60px;
+    margin: 27px auto;
+    padding-left: 20px;
+    box-sizing:border-box;
+    background: #F7F7F7;
+    border-radius: 6px;
+}
+.Search img{
+    width: 24px;
+    margin-top: 18px;
+    margin-right: 9px;
+}
+.Search input{
+    background: #F7F7F7;
+    line-height: 60px;
+}
+.Search input[placeholder]{
+    font-size: 24px;
+    color: #CBCBCB;
+}
+/* 第三部分 */
+.three{
+    /* margin: 40px  0; */
+    background: #F7F7F7;
+}
+.three section{
+    width: 95%;
+    height:240px ;
+    border-radius: 30px;
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.three ul{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.three ul > li {
+    float: left;
+}
+.three ul > li:first-child{
+    width: 32px;
+    height: 32px;
+    border: 2px solid #CDCDCD;
+    border-radius: 50%;
+    left: 20px;
+
+    
+}
+.three ul > li:nth-of-type(2) ,.three ul > li > img ,.three ul > li:nth-of-type(3){
+   
+    height: 146px;
+}
+.three ul > li:nth-of-type(2){
+     margin-left: 81px;
+     
+}
+.three ul > li:nth-of-type(3) {
+    width: 61%;
+    margin-left: 256px;
+   
+}
+.three ul > .word > .top{
+    font-size: 26px;
+}
+.three ul > .word > .bottom{
+    overflow: hidden;
+    font-size: 22px;
+    margin-top: 32px;
+}
+.three ul > .word > .bottom > .left{
+color: #999999;
+vertical-align: bottom;
+
+}
+.three ul > .word > .bottom > .right{
+color: #FF5D5D;
+}
+.four{
+    width: 95%;
+    height: 100px;
+    line-height: 100px;
+    background: #FF9326;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin: 47px auto;
+    border-radius: 8px;
+}
+.ying{
+    display: none;
+}
+/* 这个决定隐藏与否 */
+.Gray{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:1400px;
+    padding-bottom: -9999px;
+    box-sizing: border-box;
+    background-color: #06020070;
+}
+
+.Gray > .Wh > .tan{
+    width: 500px;
+    height: 180px;
+    border-radius: 30px;
+    background: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+.Gray > .Wh > .tan > .top{
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid #EFEFEF;
+}
+.Gray > .Wh > .tan > .bottom > div > button{
+    font-size: 28px;
+    background: white;
+}
+.Gray > .Wh > .tan > .bottom > div{
+    float: left;
+    width: 50%;
+    line-height: 90px;
+    text-align: center;
+}
+.Gray > .Wh > .tan > .bottom > .right{
+    border-left: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    
+}
+.Gray > .Wh > .tan > .bottom > .right > button{
+    color:#FFAB58 ;
+}
+.five{
+    width: 95%;
+    height: 289px;
+    margin: 7px auto 0;
+    border-radius: 20px;
+    padding:30px ;
+    box-sizing: border-box;
+}
+.five ul > li{
+    font-size:24px ;
+    color: #9A9A9A;
+    line-height: 56px;
+}

@@ -1,0 +1,463 @@
+﻿.Floating-left{
+    float: left;
+}
+.Floating-right{
+    float: right;
+}
+.Middle{/* 内容在不用弹性情况下的定位居中 */
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.middle-up{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.Wholenesa{
+    width:100%;
+    height: 1400px;
+   /* border: 1px solid black;  这里用了一个零时的边框，用到时候删除*/
+    background: #F7F7F7;
+    overflow: hidden;
+}
+.Wholenesa > p{
+    width: 95%;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 18;
+    color: #999999;
+}
+article{
+    overflow: hidden;
+    background: white;
+}
+.one{
+   color: white;
+    padding: 9px 15px 27px;
+    background: #FF9326;
+}
+header{
+    position: relative;
+    overflow: hidden;
+    font-size: 24px;
+    
+}
+header .left > ul {
+    overflow: hidden;
+}
+header  ul > li{
+    float: left;  
+}
+header .left > ul > li img{
+    width: 24px;
+    margin-left: 13px;
+    vertical-align: bottom;
+}
+header .left > ul > li > ul{
+    
+     margin-top: 10px;/*信号居中 */
+     margin-right: 8px;
+}
+header .left > ul > li > ul > li{
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin-left: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+header .right > ul > li img{
+    width: 49px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+section{
+    position: relative;
+    margin-top: 40px;
+    overflow: hidden;
+}
+section .left a img{
+    margin-left: 25px;
+    height: 30px;
+    margin-top: 6px;
+}
+
+section h2{
+    font-size: 30px; 
+    font-weight: 540;
+}
+
+/* 第三部分 */
+.three{
+    /* margin: 40px  0; */
+    background: #F7F7F7;
+}
+.three section{
+    width: 95%;
+    /* height:1132px ; */
+    border-radius: 30px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.three section .logoo{
+    width: 120px;
+    margin: 100px auto 130px;
+    font-size: 28px;
+    text-align: center;
+}
+.three section > ul >li > input{
+    margin-left:6px ;
+}
+.three section > ul >li > input[placeholder]{
+    font-size: 28px;
+    color: #DADADA;
+    
+}
+.three section .logoo p{
+    margin-top: 20px;
+}
+.three ul{
+    height: 100%;
+    overflow: hidden;
+}
+.three ul > li {
+    height: 80px;
+    width: 80%;
+    margin: 0 auto 30px;
+    border-radius: 8px;
+    line-height: 80px;
+    font-size: 28px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+}
+.three ul > li:nth-of-type(2) input{
+    width: 70%;
+    border-right: 1px solid #ECECEC;
+}
+.three ul > li >.timee{
+    display: inline-block;
+    width: 28%;
+    float: right;
+    color: #FF9326;
+    text-align: center;
+    
+    
+}
+.three .san{
+    width: 80%;
+    height: 100px;
+    line-height: 100px;
+    background: #FF9326;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 60px auto 180px;
+}
+/* .three .bian{
+    background:#DADADA;
+ } */
+ /*橙色按键变色 */
+.ying{
+    display: none;
+}
+/* 这个决定隐藏与否 */
+
+
+
+
+
+
+
+.five{
+    width: 95%;
+    height: 500px;
+    margin: 7px auto 0;
+    border-radius: 20px;
+    padding:20px ;
+    box-sizing: border-box;
+}
+.five ul > li{
+    overflow: hidden;
+    font-size:24px ;
+    color: #9A9A9A;
+    line-height: 56px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.five ul > li:first-of-type{
+    padding: 20px 0 30px;
+}
+.five ul > li:nth-of-type(2),.five ul > li:nth-of-type(3){
+    height: 84px;
+    line-height: 84px;
+}
+.five ul > li:last-of-type{
+    border-bottom: none;
+    padding-top: 10px;
+
+}
+
+.five ul > li > .left{
+    float: left;
+}
+
+.five ul > li > .right{
+    float: right;
+    
+}
+.five ul > li > .right img{
+    vertical-align: middle;
+    height:16px;
+    margin-left: 20px;
+}
+
+.five ul > li > .right  .tuu{
+    float: left;
+    width: 74px;
+    height: 74px;
+    /* background:blue; */
+    background: url("../picture/eirr.jpg") no-repeat 0 0/ 100% #FF9326;
+    border-radius: 50%;
+}
+
+
+
+
+/* 扪布后的界面 */
+.Gray{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:1400px;
+    padding-bottom: -9999px;
+    box-sizing: border-box;
+    background-color: #06020070;
+}
+.Gray > .Wh > .tan{
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    background: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.Gray > .Wh > .tan > .top{
+    height: 260px;
+    width: 100%;
+    font-size: 24px;
+    padding-top: 86px;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 1px solid #EFEFEF;
+}
+.Gray > .Wh > .tan > .top .middle{
+    /* box-sizing: border-box; */
+}
+.Gray > .Wh > .tan > .top .middle p{
+    margin-top: 19px;
+}
+.Gray > .Wh > .tan > .bottom > div > button{
+    font-size: 28px;
+    background: white;
+}
+.Gray > .Wh > .tan > .bottom > div{
+    float: left;
+    width: 50%;
+    line-height: 90px;
+    text-align: center;
+}
+.Gray > .Wh > .tan > .bottom > .right{
+    border-left: 1px solid #EFEFEF;
+    box-sizing: border-box; 
+}
+.Gray > .Wh > .tan > .bottom > .right > button{
+    color:#FFAB58 ;
+}
+.cha{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.cha img{
+    width: 18px;
+}
+
+/* 扪布后的界面男女选择*/
+.Gray1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:1400px;
+    box-sizing: border-box;
+    background-color: #06020070;
+}
+.Gray1 > .Wh > .tan{
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    background: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    /* text-align: center; */
+    font-size: 24px;
+}
+.Gray1 > .Wh > .tan > .top{
+    height: 100px;
+    width: 100%;
+    padding-left:60px ;
+    line-height: 100px;
+    box-sizing: border-box;
+    
+    border-bottom: 1px solid #EFEFEF;
+}
+.Gray1 > .Wh > .tan > .bottom{
+    line-height: 100px;
+    padding-left:60px ;
+    background: #EDEDED;
+}
+
+
+/* 扪布后的界面编辑昵称 */
+.Gray2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:1400px;
+    padding-bottom: -9999px;
+    box-sizing: border-box;
+    background-color: #06020070;
+}
+.Gray2 > .Wh > .tan{
+    width: 500px;
+    height: 354px;
+    border-radius: 30px;
+    background: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.Gray2 > .Wh > .tan > .top{
+    height: 108px;
+    width: 100%;
+    font-size: 28px;
+    line-height: 108px;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 1px solid #EFEFEF;
+}
+.Gray2 > .Wh > .tan > .middle{
+    background: #EDEDED;
+    padding-left: 30px;
+}
+.Gray2 > .Wh > .tan > .middle input{
+    background: #EDEDED;
+    height: 61px;
+    width: 100%;
+}
+.Gray2 > .Wh > .tan > .middle input[value]{
+    font-size: 24px;
+    color: #636363;
+}
+.Gray2 > .Wh > .tan > .bottom{
+    width: 100%;
+    height: 180px;
+}
+.Gray2 > .Wh > .tan > .bottom >p{
+   color: #A4A4A4;
+   padding-left: 30px;
+   padding-top: 24px;
+}
+.Gray2 > .Wh > .tan > .bottom > button{
+    width: 160px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 28px;
+    color: white;
+    display: block;
+    background:#FF9326 ;
+    margin: 40px auto;
+}
+
+
+
+
+/* 扪布后的界面编辑简介 */
+.Gray3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:1400px;
+    padding-bottom: -9999px;
+    box-sizing: border-box;
+    background-color: #06020070;
+}
+.Gray3 > .Wh > .tan{
+    width: 500px;
+    height: 397px;
+    border-radius: 30px;
+    background: white;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.Gray3 > .Wh > .tan > .top{
+    height: 108px;
+    width: 100%;
+    font-size: 28px;
+    line-height: 108px;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 1px solid #EFEFEF;
+}
+.Gray3 > .Wh > .tan > .middle{
+    background: #EDEDED;
+    padding-left: 30px;
+    height: 150px;
+    box-sizing: border-box;
+}
+.Gray3 > .Wh > .tan > .middle input{
+    background: #EDEDED;
+    height: 61px;
+    width: 100%;
+}
+.Gray3 > .Wh > .tan > .middle input[value]{
+    font-size: 24px;
+    color: #636363;
+}
+.Gray3 > .Wh > .tan > .bottom{
+    width: 100%;
+}
+.Gray3 > .Wh > .tan > .bottom > button{
+    width: 160px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 28px;
+    color: white;
+    display: block;
+    background:#FF9326 ;
+    margin: 40px auto;
+}
